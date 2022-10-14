@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Arial, sans-serif;background-image: url('/static/images/bg.jpeg');
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  font-family: Ariel;
+}
+
+.navbar a {
+  float: right;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.navbar a:hover {
+  background-color: #FFD384;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.container{
+  border-style: solid;
+  border-color: #222222;
+  opacity: 90%;
+  background-color:#545454 ;
+  font-size:12px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 50px;
+}   
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
