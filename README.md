@@ -1,4 +1,4 @@
-# STATES-OF-MATTER
+# STATES_OF_MATTER
 Make sure that you have Flask installed in your PC.
 1. Download the entire repository.
 2. Run main.py using CMD/PyCharm/VsCode etc.
